@@ -1,0 +1,19 @@
+.estadistica--perfil {
+  display: flex;
+  width: 50%;
+  height: 90px;
+  padding-top: 15px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.estadistica--perfil h3 {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.estadistica--perfil span {
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+}

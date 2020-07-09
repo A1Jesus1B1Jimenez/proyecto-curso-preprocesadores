@@ -1,0 +1,16 @@
+extend componentes/plantilla.pug
+block contenidos
+    section.intro
+        .intro__imagen: img(src="images/imagen.png", alt="")
+        .intro__contenido
+          h2 #{titulos[0]}
+          p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi laboriosam, facilis dicta illo pariatur maiores ullam ut consequuntur magnam suscipit quod, quibusdam laborum autem minima qui commodi voluptatibus amet fugit.
+            span Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, omnis dignissimos possimus ipsum ab voluptatum harum voluptate numquam libero vitae alias facilis ad aliquam fuga! Repellat incidunt ex iure quas.
+          a.boton Leer mas
+    main.contenido 
+      +caja("imagen.png",titulos[1],"Lorem ipsum dolor sit amet consectetur")
+      +caja("imagen.png",titulos[2],"Lorem ipsum dolor sit amet consectetur")
+      +caja("imagen.png",titulos[3],"Lorem ipsum dolor sit amet consectetur")
+      
+
+        
